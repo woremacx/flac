@@ -3,7 +3,7 @@ package flac_test
 import (
 	"testing"
 
-	"github.com/mewkiz/flac"
+	"github.com/woremacx/flac"
 )
 
 func TestSkipID3v2(t *testing.T) {

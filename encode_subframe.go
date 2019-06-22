@@ -2,8 +2,8 @@ package flac
 
 import (
 	"github.com/icza/bitio"
-	"github.com/mewkiz/flac/frame"
-	iobits "github.com/mewkiz/flac/internal/bits"
+	"github.com/woremacx/flac/frame"
+	iobits "github.com/woremacx/flac/internal/bits"
 	"github.com/mewkiz/pkg/errutil"
 )
 

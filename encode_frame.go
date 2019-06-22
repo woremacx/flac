@@ -5,10 +5,10 @@ import (
 	"io"
 
 	"github.com/icza/bitio"
-	"github.com/mewkiz/flac/frame"
-	"github.com/mewkiz/flac/internal/hashutil/crc16"
-	"github.com/mewkiz/flac/internal/hashutil/crc8"
-	"github.com/mewkiz/flac/internal/utf8"
+	"github.com/woremacx/flac/frame"
+	"github.com/woremacx/flac/internal/hashutil/crc16"
+	"github.com/woremacx/flac/internal/hashutil/crc8"
+	"github.com/woremacx/flac/internal/utf8"
 	"github.com/mewkiz/pkg/errutil"
 )
 

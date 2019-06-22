@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mewkiz/flac"
-	"github.com/mewkiz/flac/meta"
+	"github.com/woremacx/flac"
+	"github.com/woremacx/flac/meta"
 )
 
 // flagBlockNum contains an optional comma-separated list of block numbers to

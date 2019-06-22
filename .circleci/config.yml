@@ -15,12 +15,12 @@ jobs:
       - restore_cache:
           name: Restore go modules cache
           keys:
-            - v1-mod-{{ .Branch }}-{{ checksum "go/go.mod" }}
+            - v1-mod-{{ .Branch }}-{{ checksum "go.mod" }}
 
       - run: go test -v ./...
 
       - save_cache:
           name: Save go modules cache
-          key: v1-mod-{{ .Branch }}-{{ checksum "go/go.mod" }}
+          key: v1-mod-{{ .Branch }}-{{ checksum "go.mod" }}
           paths:
             - ~/go/pkg/mod/cache

@@ -33,8 +33,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/mewkiz/flac/frame"
-	"github.com/mewkiz/flac/meta"
+	"github.com/woremacx/flac/frame"
+	"github.com/woremacx/flac/meta"
 )
 
 // A Stream contains the metadata blocks and provides access to the audio frames

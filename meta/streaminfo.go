@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/mewkiz/flac/internal/bits"
+	"github.com/woremacx/flac/internal/bits"
 )
 
 // StreamInfo contains the basic properties of a FLAC audio stream, such as its

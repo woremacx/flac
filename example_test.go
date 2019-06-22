@@ -7,7 +7,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/mewkiz/flac"
+	"github.com/woremacx/flac"
 )
 
 func ExampleParseFile() {

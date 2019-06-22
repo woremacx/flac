@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.12.6
+
+    working_directory: /go/src/github.com/woremacx/flac
+
+    steps:
+      - checkout
+      - run: go test -v ./...

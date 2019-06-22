@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"github.com/icza/bitio"
-	"github.com/mewkiz/flac/meta"
+	"github.com/woremacx/flac/meta"
 	"github.com/mewkiz/pkg/errutil"
 )
 

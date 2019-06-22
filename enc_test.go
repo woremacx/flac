@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/mewkiz/flac"
-	"github.com/mewkiz/flac/meta"
+	"github.com/woremacx/flac"
+	"github.com/woremacx/flac/meta"
 )
 
 func TestEncode(t *testing.T) {
